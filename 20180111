@@ -1,0 +1,25 @@
+Shell script language
+
+shell language sample:
+------------------------------------
+#!/bin/bash
+
+if true;then
+echo you right;
+fi
+
+for stringname in `set`;do
+echo $stringname;
+done
+
+strr=`set`;
+echo ${strr:2:3}
+-------------------------------------
+
+1.env
+2.set
+3.export
+4.unset
+
+These 4 commands will let us know or set the variables in linux.
+
