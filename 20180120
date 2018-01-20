@@ -19,4 +19,10 @@ Shell command about how to use the "split" function like other languages and the
   
 2. Then we need to do the / mathmatic usage:
 
-    
+   shin@shin-X555LPB:~$ VALUE1=432423
+   shin@shin-X555LPB:~$ VALUE2=543441
+   shin@shin-X555LPB:~$ awk 'BEGIN{printf "%.2f\n",('$VALUE1'/'$VALUE2')}'
+   0.80
+   shin@shin-X555LPB:~$ awk 'BEGIN{printf "%.5f\n",('$VALUE1'/'$VALUE2')}'
+   0.79571
+   
