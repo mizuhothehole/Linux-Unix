@@ -1,0 +1,22 @@
+Shell command about how to use the "split" function like other languages and the / math usage
+
+1. First I really do not catch the point but that the maining of split using "cut" command in shell is like this in fact
+   1) To clear the indicated 1 character. Which means we can just appoint only one character. Not 2 chars.
+   2) To make the left words into a range.
+   3) To pick out any of the words in appointed position.
+   
+   For example,the real runtime is like below:
+   
+   xadxasd fsfsf   fsfssaf     fsafdfa fcasfasfas
+   
+   If we split by " ", they will be split into...
+   
+   xadxasd
+   fsfsf
+   fsfssaf
+   fsafdfa
+   fcasfasfas
+  
+2. Then we need to do the / mathmatic usage:
+
+    
