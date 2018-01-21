@@ -15,3 +15,14 @@ done
 and xxx1.txt,xxx2.txt,xxx3.txt......
 
 many txt files will be created under indicated folder.
+
+cal command to show calendar 
+cal -m 意思是从星期一的开始显示日历内容
+cal -m 3 意思是从星期一的开始显示，然后往后显示三个月的
+cal 2018
+cal 12 2018
+
+cal总之就是用来显示出来月份和对应的日历的的。
+
+cat 改进版，less。这个命令是一页一页的显示出来输出的log。
+
