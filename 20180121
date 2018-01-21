@@ -26,3 +26,55 @@ cal总之就是用来显示出来月份和对应的日历的的。
 
 cat 改进版，less。这个命令是一页一页的显示出来输出的log。
 
+HWPRA-H:/ $ ls
+ls: .: Permission denied
+1|HWPRA-H:/ $ touch nihao
+touch: 'nihao': Read-only file system
+1|HWPRA-H:/ $ whaiis cal
+/system/bin/sh: whaiis: not found
+127|HWPRA-H:/ $ whatis cal
+/system/bin/sh: whatis: not found
+127|HWPRA-H:/ $ cal
+    January 2018
+Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
+28 29 30 31
+
+HWPRA-H:/ $ cal -m
+usage: cal [[month] year]
+
+Print a calendar.
+
+With one argument, prints all months of the specified year.
+With two arguments, prints calendar for month and year.
+
+cal: Unknown option m
+1|HWPRA-H:/ $ cal 1 2018
+    January 2018
+Su Mo Tu We Th Fr Sa
+    1  2  3  4  5  6
+ 7  8  9 10 11 12 13
+14 15 16 17 18 19 20
+21 22 23 24 25 26 27
+28 29 30 31
+
+HWPRA-H:/ $ ls
+ls: .: Permission denied
+1|HWPRA-H:/ $ cal 2 2018
+   February 2018
+Su Mo Tu We Th Fr Sa
+             1  2  3
+ 4  5  6  7  8  9 10
+11 12 13 14 15 16 17
+18 19 20 21 22 23 24
+25 26 27 28
+
+HWPRA-H:/ $ less cal
+/system/bin/sh: less: not found
+127|HWPRA-H:/ $ cd ../
+HWPRA-H:/ $ ls
+ls: .: Permission denied
+1|HWPRA-H:/ $
