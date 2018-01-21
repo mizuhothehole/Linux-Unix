@@ -1,0 +1,17 @@
+Make .txt files in a loop in shell
+The main command is called:
+touch
+using touch we can make files.
+
+The whole command is like this:
+
+$ cd xxx
+$ make dir CCC
+$ cd CCC
+$ for((i=0;i<10;i++));do
+touch xxx$i.txt
+done
+
+and xxx1.txt,xxx2.txt,xxx3.txt......
+
+many txt files will be created under indicated folder.
