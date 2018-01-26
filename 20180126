@@ -18,5 +18,17 @@ $ mkdir: make a dir
 $ rmdir: remove a dir
 $ mv file folder: move a file
 $ mv file file2: rename a file
+
 $ du -sh: : show the size of a dir
 $ du: list all the files in a dir
+$ df: give the file system infomation
+
+$ find dir: find files
+$ find dir -type d: find directory type under proper folder
+$ find dir -type f: find file type under proper folder
+$ find fir -name "*.java": find name like *.java under proper folder
+
+$ locale man: find where a command or a module is in
+
+$ ln fileA fileB: make a hard link to this file. Just like to copy it, but it will not use new storage as it is just a link
+$ ln -s fileA linkB: make a symbol link. It is just like a redirect as windows.
