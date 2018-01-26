@@ -32,3 +32,11 @@ $ locale man: find where a command or a module is in
 
 $ ln fileA fileB: make a hard link to this file. Just like to copy it, but it will not use new storage as it is just a link
 $ ln -s fileA linkB: make a symbol link. It is just like a redirect as windows.
+
+What is swapspace?
+when memory is not enough to be used, we could use swapspace to storage data here.
+
+When could we see its infomation?
+$ free
+$ swapon
+
