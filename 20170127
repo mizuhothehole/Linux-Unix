@@ -1,0 +1,22 @@
+More basic commands for bash shell
+
+$ ls -l: show the files in list
+$ ls -a: show all the files, including .. or . this kands of files
+$ ls -al: the mix of "ls -a" and "ls -l"
+$ ls -la: the mix of "ls -a" and "ls -l"
+
+$ pwd: the directory of current
+
+$ cd: goto $HOME directory
+$ cd ..: goto upper directory
+
+$ rm: remove a file
+$ rm -r: remove a directory
+$ cp filename new_filename: copy a file
+$ cp -r dirname new_dirname: copy a dictory
+$ mkdir: make a dir
+$ rmdir: remove a dir
+$ mv file folder: move a file
+$ mv file file2: rename a file
+$ du -sh: : show the size of a dir
+$ du: list all the files in a dir
