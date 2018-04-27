@@ -1,0 +1,5 @@
+Ubuntu linux commands
+
+apt-get install
+apt-get remove
+apt-get --reinstall install
